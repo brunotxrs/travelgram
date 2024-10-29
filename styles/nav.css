@@ -25,3 +25,8 @@ nav ul li:last-child img {
 
 }
 
+a:hover {
+    color: var(---brand-color);
+    text-decoration: underline;
+}
+
