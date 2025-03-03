@@ -1,0 +1,122 @@
+.bg-surface-color {
+
+    padding: 10px 20px;
+    background-color: var(--surface-color);
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        
+
+        #logo > img {
+            width: 150px;
+            display: flex;
+        }
+
+        #primary-menu {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+
+            li {
+                list-style: none;
+            }
+
+
+            li:nth-child(1) > a > img {
+                width: 20px;
+                height: 20px;
+                margin-right: 50px;
+            }
+
+            li:nth-child(2), li:nth-child(3) {
+                display: none;
+            }
+
+            li:nth-child(4) > a > img {
+                display: flex;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+        }
+
+    }
+
+    
+}
+
+@media (min-width: 1025px)  {
+
+    .bg-surface-color {
+
+        padding: 30px;
+    
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+    
+            
+    
+            #logo > img {
+                width: 200px;
+                display: flex;
+            }
+    
+            #primary-menu {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                gap: 20px;
+    
+                li {
+                    list-style: none;
+                }
+    
+    
+                li:nth-child(1) > a > img {
+                    width: 25px;
+                    height: 25px;
+                }
+    
+                li:nth-child(2), li:nth-child(3) {
+                    display: flex;
+                }
+
+                li:nth-child(2):hover, li:nth-child(3):hover {
+                    text-decoration: underline;
+                    color: var(--brand-color);
+                }
+
+    
+                li:nth-child(4) > a > img {
+                    display: flex;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+    
+        }
+    
+        
+    }
+
+
+}
+
+
+
