@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O projeto é um layout do perfil de uma rede social de fotos de viagem. 
 Esse é um dos projetos desenvolvidos em aula na formação Full-stack.
 
-- Acesse o projeto finalizado, [online](XXXXXX)
+- Acesse o projeto finalizado, [online](https://brunotxrs.github.io/travelgram/)
 
 ## 🔖 Layout
 
